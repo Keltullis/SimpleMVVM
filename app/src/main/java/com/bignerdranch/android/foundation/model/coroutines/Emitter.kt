@@ -7,7 +7,6 @@ typealias CancelListener = () -> Unit
 
 interface Emitter<T> {
 
-
     fun emit(finalResult: FinalResult<T>)
 
 
